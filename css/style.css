@@ -534,14 +534,14 @@ body {
   cursor: pointer;
   -webkit-box-shadow: 0px 18px 24px 0px #ffede0;
           box-shadow: 0px 18px 24px 0px #ffede0;
-}
-
-.add-txt {
   color: white;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  padding-left: 1.5rem;
+}
+
+.add-btn svg {
+  margin-right: 1rem;
 }
 
 .lightbox {

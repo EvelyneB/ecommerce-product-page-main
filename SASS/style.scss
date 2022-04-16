@@ -482,18 +482,17 @@ body{
       border-radius: 10px;
       margin-top: 0.8rem;
       cursor: pointer;
-      box-shadow: 0px 18px 24px 0px $color-pale-orange;  
+      box-shadow: 0px 18px 24px 0px $color-pale-orange; 
+      color: $color-white;
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 1rem;
   }
 
-  .add-txt{
-        color: $color-white;
-        font-family: $font-family;
-        font-weight: 700;
-        font-size: 1rem;
-        padding-left: 1.5rem;
-
-    }
-
+  .add-btn svg{
+     margin-right: 1rem;
+  }
+  
     .lightbox{
         display: none;
     }
